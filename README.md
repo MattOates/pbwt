@@ -22,9 +22,11 @@ May 2013, updated September 2014
 
 Installation instructions
 ------------------------
-Download htslib from https://github.com/samtools/htslib, and compile it
+Download htslib v1.3.2 from https://github.com/samtools/htslib, and compile it
 
-   git clone https://github.com/samtools/htslib
+   wget https://github.com/samtools/htslib/releases/download/1.3.2/htslib-1.3.2.tar.bz2
+   tar jxvf htslib-1.3.2.tar.bz2 && rm htslib-1.3.2.tar.bz2
+   ln -s htslib-1.3.2 htslib
    cd htslib
    make
    cd ..
